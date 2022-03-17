@@ -8,13 +8,21 @@
 int main() {
     // ===============================================================================================
     // {5} Example 3: Derefencing a Pointer
-    // int year = 2022;			    // (1)
-    // int* p_year = &year; 		// (2) reference year
-    // int age = *p_year - 1998;	// (3) dereference p_year
-    // std::cout << "Variable value:       " << year << std::endl;
-    // std::cout << "Referenced variable:  " << &year << std::endl;
-    // std::cout << "Pointer value:        " << p_year << std::endl;
-    // std::cout << "Dereferenced Pointer: " << *p_year << std::endl;
+    int year = 2022;			    // (1)
+    int* p_year = &year; 		// (2) reference year
+    int age = *p_year - 1998;	// (3) dereference p_year
+    std::cout << "Variable value:       " << year << std::endl;
+    std::cout << "Referenced variable:  " << &year << std::endl;
+    std::cout << "Pointer value:        " << p_year << std::endl;
+    std::cout << "Dereferenced Pointer: " << *p_year << std::endl;
+// {6} Excersise 3: Pointers Derefercing 
+// DO this EXcersise 
+int day_of_week {4};
+int* ptr_dow {&day_of_week};
+
+
+
+
 
 
     // ===============================================================================================
@@ -35,17 +43,23 @@ int main() {
     // {8} Example 4: Constants and Pointers
     // std::string msg {"Hello Naliko!"};     // string
     // const std::string cns_msg {"This message cannot be changed!"}; // constant string
-
     // std::string* ptr1 {&msg};               // (string) pointer
     // const std::string* ptr2 {&cns_msg};     // (constant string) pointer
 
     // std::string* const ptr3 {&msg};         // (string) constant pointer
     // const std::string* const {&cns_msg};    // (constant string) constant pointer
 
-
     // ===============================================================================================
     // {9} Exercise 4: Constants and Pointers
     // DO THIS NOW !
+    int year_born {2000};
+    int year_current {2022};
+    int year_future {2050};
+    std::cout << "born:        " << year_born << std::endl;
+    std::cout << "current age: " << year_current - year_born<< std::endl;
+    std::cout << "Future age:" << year_future -year_born << std::endl;
+
+
 
 
     // ===============================================================================================
