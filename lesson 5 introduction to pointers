@@ -1,0 +1,36 @@
+#include <iostream> // cout; cin
+#include <string>   // strings
+
+int main() {
+    // ===============================================================================================
+    // {0} testing GitPod
+    // std::cout << "Test message" << std::endl;
+
+    // ===============================================================================================
+    // {1} example 1 - variable's address
+    // int year {2022}; // declaring a variable
+    // std::cout << "Variable value:   " << year << std::endl;
+    // std::cout << "Variable address: " << &year << std::endl;
+
+    // ===============================================================================================
+    // {2} exercise 1 - variable's address
+    // std::string message {"Hello World!"};
+    // std::cout << "Value:   " << message << std::endl;
+    // std::cout << "Address: " << &message << std::endl;
+
+    // ===============================================================================================
+    // {3} example 2 - using a pointer
+    // int born {1998};    // declaring a variable
+    // int* ptr {&born};   // "ptr" is a pointer with a value of "&born"
+    // std::cout << "born:  " << born << std::endl;
+    // std::cout << "&born: " << &born << std::endl;
+    // std::cout << "ptr:   " << ptr << std::endl;
+
+    // ===============================================================================================
+    // {4} exercise 2 - using a pointer
+    // std::string question {"Where am I?"};    // declaring a variable
+    // std::string* ptr {&question};            // "ptr" is a pointer with a value of "&question"
+    // std::cout << "question: " << question << std::endl;
+    // std::cout << "ptr:      " << ptr << std::endl;
+
+};
