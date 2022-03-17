@@ -3,31 +3,35 @@
 
 int main() {
     // ===============================================================================================
-    // {0} testing GitPod
+    // {0} Testing GitPod
     // std::cout << "Test message" << std::endl;
 
+
     // ===============================================================================================
-    // {1} example 1 - variable's address
+    // {1}	Example 1: Addresses
     // int year {2022}; // declaring a variable
     // std::cout << "Variable value:   " << year << std::endl;
     // std::cout << "Variable address: " << &year << std::endl;
 
+
     // ===============================================================================================
-    // {2} exercise 1 - variable's address
+    // {2} Exercise 1: Addresses
     // std::string message {"Hello World!"};
     // std::cout << "Value:   " << message << std::endl;
     // std::cout << "Address: " << &message << std::endl;
 
+
     // ===============================================================================================
-    // {3} example 2 - using a pointer
+    // {3} Example 2: Pointers
     // int born {1998};    // declaring a variable
     // int* ptr {&born};   // "ptr" is a pointer with a value of "&born"
     // std::cout << "born:  " << born << std::endl;
     // std::cout << "&born: " << &born << std::endl;
     // std::cout << "ptr:   " << ptr << std::endl;
 
+
     // ===============================================================================================
-    // {4} exercise 2 - using a pointer
+    // {4} Exercise 2: Pointers
     // std::string question {"Where am I?"};    // declaring a variable
     // std::string* ptr {&question};            // "ptr" is a pointer with a value of "&question"
     // std::cout << "question: " << question << std::endl;

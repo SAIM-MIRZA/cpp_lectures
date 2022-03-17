@@ -22,9 +22,11 @@
         //                 * substr
         //                 * ...
 
+
         // ===============================================================================================
         // {2} string operations via "cpp string documentation"
         //      * for example using the find operator                
+
 
         // ===============================================================================================
         // {3} using string_view
@@ -36,6 +38,7 @@
         // std::cout << "str1: " << str1 << " length: " << str1.length() << std::endl;
         // std::cout << "str2: " << str2 << " length: " << str2.length() << std::endl;
         // std::cout << "str_v1: " << str_view << " length: " << str_view.length() << std::endl;
+
 
         // ===============================================================================================
         // {3} getting inputs from users
@@ -50,6 +53,7 @@
 
         // std::cout << "your first name is: " << first_name << std::endl; // output tests
         // std::cout << "your surname is: " << surname << std::endl;
+
 
         // ===============================================================================================
         // {4} string of languages
