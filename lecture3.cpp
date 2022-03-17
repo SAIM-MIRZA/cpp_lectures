@@ -10,7 +10,7 @@
 #include <string>   // strings
 #include <string_view> // string_views
 
-int main() {
+//int main() {
         // ===============================================================================================
         // {1} strings instead of character arrays
         //         * easier to assign values
@@ -59,4 +59,4 @@ int main() {
         // std::size_t length_of_language = language_of_interest.length(); // print the searched language and the next language
         // std::cout << "\nThe first language is: " << languages.substr(position, length_of_language);
 
-};
+//};
